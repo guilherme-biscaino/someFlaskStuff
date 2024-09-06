@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "flask-restapi"
+version = "0.1.0"
+description = ""
+authors = [" guilherme-biscaino  < guilhermebs.bs2@hotmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+flask = "^3.0.3"
+flask-sqlalchemy = "*"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
